@@ -1,7 +1,7 @@
 source $(_decompose-project-root)/.decompose/environment/lib/common/processes
 source $(_decompose-project-root)/.decompose/environment/lib/docker/processes
 DECOMPOSE_PROCESSES=( "${DECOMPOSE_COMMON_PROCESSES[@]}" "${DECOMPOSE_DOCKER_PROCESSES[@]}"
-  'build' )
+  'build' 'up' )
 
 _decompose-process-build() {
   _decompose-process-common-build
