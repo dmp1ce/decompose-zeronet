@@ -1,0 +1,5 @@
+.gitmodules
+.git
+.decompose/environment
+Dockerfile.zeronet
+docker-compose.yml
