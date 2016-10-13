@@ -1,0 +1,5 @@
+# Uncomment to enable plugins
+# PROJECT_PLUGIN_MULTIUSER=true
+# PROJECT_PLUGIN_UIPASSWORD=true
+
+# vim:syntax=sh tabstop=2 shiftwidth=2 expandtab
