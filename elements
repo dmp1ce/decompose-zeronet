@@ -1,0 +1,3 @@
+source $(_decompose-project-root)/.decompose/environment/lib/common/elements
+
+# vim:syntax=sh tabstop=2 shiftwidth=2 expandtab
