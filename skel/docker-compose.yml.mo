@@ -4,6 +4,9 @@ services:
     build:
       dockerfile: Dockerfile.tor
       context: .
+{{#PROJECT_RESTART_ALWAYS}}
+    restart: always
+{{/PROJECT_RESTART_ALWAYS}}
   zeronet:
     build:
       dockerfile: Dockerfile.zeronet
