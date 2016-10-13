@@ -17,5 +17,8 @@ services:
       - tor
     volumes_from:
       - tor
+{{#PROJECT_RESTART_ALWAYS}}
+    restart: always
+{{/PROJECT_RESTART_ALWAYS}}
 
 # vi: set tabstop=2 expandtab syntax=yaml:
