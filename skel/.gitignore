@@ -1,3 +1,4 @@
 /Dockerfile.zeronet
 /docker-compose.yml
 /.decompose/elements
+/live_data

@@ -20,6 +20,10 @@ services:
       - tor
     volumes_from:
       - tor
+{{#PROJECT_MOUNT_DATA}}
+    volumes:
+      - ./live_data:/root/data
+{{/PROJECT_MOUNT_DATA}}
 {{#PROJECT_RESTART_ALWAYS}}
     restart: always
 {{/PROJECT_RESTART_ALWAYS}}
